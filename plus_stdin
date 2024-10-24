@@ -4,11 +4,14 @@ import sys
 
 def tonum(s):
     try:
-        ans += int(line)
+        return int(line)
     except:
-        ans += float(line)
-for  line in sys.stdin:
-        ans += tonum(line)
+        return float(line)
+
+
+for line in sys.stdin:
+    line = line.rstrip()
+    ans += tonum(line)
 
 print(ans)
 
