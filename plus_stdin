@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Kenta Hirachi
+
+
 import sys
 
 
