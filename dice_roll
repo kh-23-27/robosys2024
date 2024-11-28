@@ -10,9 +10,8 @@ def main():
         if rolls <= 0:
             print("0以上の数字を入力してください。")
             return
-        results = []
         total = 0
-        
+        results = []
         for i in range(rolls):
             result = random.randint(1, 6)
             results.append(f"{result}")
@@ -26,6 +25,4 @@ def main():
     except ValueError:
         print("エラー: 有効な数字を入力してください。")
 
-if __name__ == "__main__":
-    main()
-
+main()
