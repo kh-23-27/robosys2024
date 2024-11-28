@@ -1,4 +1,5 @@
 # robosys2024
+[!test2](https://github.com/kh-23-27/robosys2024/blob/main/.github/workflows/test2.yml/badge.svg)](
 ロボットシステム学
 
 

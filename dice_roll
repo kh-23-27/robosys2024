@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+# SPDX-FileCopyrightText: 2024 Kenta Hirachi
+# SPDX-License=Identifier: BSD-3-Clause
+
 import sys
 import random
 
