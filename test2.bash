@@ -9,11 +9,11 @@ ng () {
 res=0
 
 #サイコロを５回振るったとき
-out=$(seq 5 | ./dice_roll)
+out=$(echo 5 | ./dice_roll)
 [ "${out}" -ge 5 ] && [ "$out" -le 60 ] || ng "$LINENO"
 
 #負の数を入力したとき
-out=$(seq -2 | ./dice_roll)
+out=$(echo -2 | ./dice_roll)
 [ "${out}" = "0以上の数字を入力してください。" ] || ng "$LINENO"
 #文字を入力したとき
 out=$(echo い | ./dice_roll)
