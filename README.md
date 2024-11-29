@@ -1,8 +1,10 @@
 # robosys2024
 [![test2](https://github.com/kh-23-27/robosys2024/actions/workflows/test2.yml/badge.svg)](https://github.com/kh-23-27/robosys2024/actions/workflows/test2.yml)
 ## このリポジトリについて
-- 大学の授業(ロボットシステム学)で作成したものです。
-- 任意の数サイコロを振り、出た目を合計するdice_rollコマンドを作成しました。
+- 大学の授業(ロボットシステム学)で作成したもので、shellにて使用できるコマンドを追加したものです。
+
+### dice_rollコマンド
+- 任意の数サイコロを振り、出た目を合計し出力します。
 
 ## クローン方法
 以下のコマンドでリポジトリをクローンしてください。
