@@ -10,7 +10,7 @@
 $ git clone https://github.com/kh-23-27/robosys2024.git
 ```
 ### 実行方法
-####　実行権限の付与
+#### 実行権限の付与
 ```
 $ chmod +x dice_roll
 ```
@@ -19,12 +19,12 @@ $ chmod +x dice_roll
 $ echo n | ./dice_roll   #nは任意の自然数
 ```
 ### 実行例
-# 入力
+#### 入力
 サイコロを5個振るとき
 ```
 $ echo 5 | ./dice_roll
 ```
-# 出力
+#### 出力
 ```
 6 1 2 4 2
 合計値: 15
