@@ -8,25 +8,22 @@ import random
 
 def main():
 
-    try:
-        rolls = int(sys.stdin.read().strip()) 
+    
+    rolls = int(sys.stdin.read().strip()) 
 
-        if rolls <= 0:
+    if rolls <= 0:
             print("0以上の数字を入力してください。")
             return
-        total = 0
-        results = []
-        for i in range(rolls):
-            result = random.randint(1, 6)
-            results.append(f"{result}")
-            total += result
-        
-        for j in range(0, len(results), 10):
-            print(" ".join(results[j:j+10]))
+    total = 0
+    results = []
+    for i in range(rolls):
+        result = random.randint(1, 6)
+        results.append(f"{result}")
+        total += result
+    
+    print(f"{' '.join(results)} 合計値: {total}")
+    #for j in range(0, len(results), 10):
+    #print(" ".join(results[j:j+10]))
 
-        print(f"合計値: {total}")
-
-    except ValueError:
-        print("エラー: 有効な数字を入力してください。")
-
-main()
+if __name__ == "__main__":
+    main()
