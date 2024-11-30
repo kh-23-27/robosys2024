@@ -1,8 +1,0 @@
-#!/bin/bash
-# SPDX-FileCopyrightText: 2024 Kenta Hirachi
-# SPDX-License=Identifier: BSD-3-Clause
-a=yamada
-[ "$a" = ueda ]
-echo $?
-[ "$a" = yamada ]
-echo $?
