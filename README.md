@@ -1,5 +1,5 @@
 # robosys2024
-[![test2](https://github.com/kh-23-27/robosys2024/actions/workflows/test2.yml/badge.svg)](https://github.com/kh-23-27/robosys2024/actions/workflows/test2.yml)
+[![test](https://github.com/kh-23-27/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/kh-23-27/robosys2024/actions/workflows/test.yml)
 ## このリポジトリについて
 - 大学の授業(ロボットシステム学)で作成したもので、shellにて使用できるコマンドを追加したものです。
 
